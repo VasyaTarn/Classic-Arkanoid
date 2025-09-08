@@ -16,8 +16,6 @@ public class MainContext : SignalContext
         _ballsConfig = ballsConfig;
     }
 
-    // TODO: Разделение контекстов (GameContext, MenuContext) запланировано и частично реализовано в папке TODO,
-    // но пока используется один основной контекст для стабильности и простоты.
 
     protected override void mapBindings()
     {
